@@ -1,0 +1,73 @@
+@import './buttons';
+@import 'src/sass/variables/index';
+
+$table-cell-padding: 3rem;
+
+@mixin DefaultTable {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-height: 19rem;
+  &-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  &-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: $text-color;
+    margin-right: 0.5rem;
+  }
+  &-view-all {
+    @include button($secondary-color);
+    @include button-primary;
+    margin-left: 1rem;
+    line-height: 1.15;
+  }
+  &-refresh {
+    @include icon-button($text-color);
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    line-height: 1.15;
+  }
+  &-table {
+    border-collapse: collapse;
+  }
+  &-table-head {
+    > tr > th {
+      padding: 1rem 0;
+      font-size: 1rem;
+      font-weight: 400;
+      color: $text-color;
+      border-bottom: 1px solid $border-color;
+      white-space: nowrap;
+      text-align: left;
+      &:not(:first-child) {
+        text-align: right;
+        padding-left: $table-cell-padding;
+      }
+    }
+  }
+  &-table-body {
+    > tr {
+      &:not(:last-child) {
+        > td {
+          border-bottom: 1px solid $border-color;
+        }
+      }
+      > td {
+        color: $blue-gray-light;
+        padding: 1rem 0;
+        box-sizing: content-box;
+        white-space: nowrap;
+        text-align: left;
+        &:not(:first-child) {
+          padding-left: $table-cell-padding;
+          text-align: right;
+        }
+      }
+    }
+  }
+}

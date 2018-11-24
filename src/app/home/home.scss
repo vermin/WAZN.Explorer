@@ -1,0 +1,63 @@
+@import 'src/sass/variables/index';
+@import 'src/sass/mixins/index';
+
+.New-User-CTA {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  // This is an exception, it allows for the linegraph tooltips to appear outside the card when overflow occurs
+  overflow: visible !important;
+  &-text-wrapper {
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  &-title {
+    font-size: 2rem;
+    font-weight: 400;
+    color: $text-color;
+    white-space: nowrap;
+    margin-bottom: 0.5rem;
+  }
+  &-text {
+    font-size: 1rem;
+    color: $blue-gray-light;
+    margin-bottom: 1rem;
+    line-height: 1.75;
+  }
+  &-link-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 1rem;
+    border-top: 1px solid $border-color;
+  }
+  &-link {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #72bac4;
+  }
+  &-graph {
+    margin: 0.5rem 0;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    height: inherit;
+    width: 133%;
+  }
+
+  @media screen and (max-width: 1016px) {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+
+    &-text-wrapper {
+      margin-right: 0rem;
+    }
+    .xmr-price {
+      border: none;
+      margin: -1rem -1.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+}

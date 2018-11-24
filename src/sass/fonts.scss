@@ -1,0 +1,131 @@
+@import './icons.scss';
+@import 'src/sass/mixins/index';
+@import 'src/sass/variables/index';
+
+/* --------------------------------
+
+icons Web Font - nucleoapp.com/
+License - nucleoapp.com/license/
+
+-------------------------------- */
+
+$font-path: '../../assets/fonts';
+
+@font-face {
+  font-family: 'icons';
+  src: url($font-path+'/icons.woff2') format('woff2'), url($font-path+'/icons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*------------------------
+	base class definition
+-------------------------*/
+
+.nc-icon {
+  display: inline-block;
+  font: normal normal normal $base-font-size / 1 'icons';
+  font-size: inherit;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: content-box;
+
+  &.size_16px {
+    height: 16px;
+    width: 16px;
+  }
+
+  &.size_24px {
+    height: 24px;
+    width: 24px;
+  }
+
+  &.size_32px {
+    height: 32px;
+    width: 32px;
+  }
+}
+
+.nc-logo-github {
+  color: #191717;
+}
+.nc-logo-twitter {
+  color: #69ace0;
+}
+.nc-logo-facebook {
+  color: #3f5695;
+}
+.nc-logo-instagram {
+  color: #ce3f6a;
+}
+.nc-logo-linkedin {
+  color: #3479b0;
+}
+.nc-logo-reddit {
+  color: #202020;
+}
+.nc-logo-medium {
+  color: #3f5695;
+}
+.nc-discord {
+  color: #7688d4;
+}
+
+/*------------------------
+  change icon size
+-------------------------*/
+
+.nc-icon.lg {
+  font-size: 1.33333333em;
+  vertical-align: -16%;
+}
+
+.nc-icon.x2 {
+  font-size: 2em;
+}
+
+.nc-icon.x3 {
+  font-size: 3em;
+}
+
+/*------------------------
+  spinning icons
+-------------------------*/
+
+.nc-icon.spin {
+  animation: nc-icon-spin 2s infinite linear;
+}
+
+@keyframes nc-icon-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+
+.nc-icon.rotate-90 {
+  @include nc-rotate(90deg, 1);
+}
+
+.nc-icon.rotate-180 {
+  @include nc-rotate(180deg, 2);
+}
+
+.nc-icon.rotate-270 {
+  @include nc-rotate(270deg, 3);
+}
+
+.nc-icon.flip-y {
+  @include nc-flip(-1, 1, 0);
+}
+.nc-icon.flip-x {
+  @include nc-flip(1, -1, 2);
+}

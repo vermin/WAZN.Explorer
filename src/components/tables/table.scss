@@ -1,0 +1,131 @@
+@import 'src/sass/mixins/index';
+@import 'src/sass/variables/index';
+
+$table-cell-padding: 3rem;
+
+.MemPool,
+.Blocks {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-height: 19rem;
+
+  div.truncated {
+    margin-top: 0.309rem;
+    margin-bottom: 0.309rem;
+  }
+  .Pages {
+    @media screen and (max-width: 450px) {
+      display: none;
+    }
+  }
+  &.paginated {
+    min-height: 38rem;
+  }
+  &-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  &-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: $text-color;
+    margin-right: 0.5rem;
+  }
+  &-view-all {
+    @include button($btn-background);
+    @include button-primary;
+    margin-left: 1rem;
+    line-height: 1.15;
+  }
+  &-refresh {
+    @include icon-button($text-color);
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    line-height: 1.15;
+  }
+  &-table {
+    display: block;
+    overflow: auto;
+    border-collapse: collapse;
+    &-head {
+      > tr > th {
+        padding: 1rem 0;
+        font-size: 1rem;
+        font-weight: 400;
+        color: $text-color;
+        border-bottom: 1px solid $border-color;
+        white-space: nowrap;
+        text-align: left;
+        &:not(:first-child) {
+          text-align: right;
+          padding-left: $table-cell-padding;
+        }
+      }
+    }
+    &-body {
+      > tr {
+        &:not(:last-child) {
+          > td {
+            border-bottom: 1px solid $border-color;
+          }
+        }
+        > td {
+          color: $blue-gray-light;
+          padding: 1rem 0;
+          box-sizing: content-box;
+          white-space: nowrap;
+          text-align: left;
+          &:not(:first-child) {
+            padding-left: $table-cell-padding;
+            text-align: right;
+          }
+        }
+      }
+    }
+    &-footer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      background-color: #fafafa;
+      margin: -1rem -2rem;
+      margin-top: 0;
+      padding: 0.5rem 2rem;
+      border-top: 1px solid $border-color;
+      color: #999999;
+      align-items: center;
+      &-paginate {
+        @include icon-button(#999999);
+        font-size: 1.5rem;
+        line-height: 1.15;
+      }
+    }
+  }
+}
+
+.MemPool {
+  &-size {
+    color: #5f6476;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 0.5rem;
+    @media screen and (max-width: 435px) {
+      display: none;
+    }
+  }
+}
+
+.Blocks {
+  &-table-head {
+    > tr > th:nth-child(0n + 2) {
+      text-align: left;
+    }
+  }
+  &-table-body {
+    > tr > td:nth-child(0n + 2) {
+      text-align: left;
+    }
+  }
+}
