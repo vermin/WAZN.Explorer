@@ -1,8 +1,8 @@
 TO DO BEFORE V1 IS DEPLOYED:
 
----customize all icons, logos and graphics
+---customize all icons, logos and graphics DONE!!!
 
----be creative :P
+---be creative :P I HOPE!!!
 
 ---check api links
 
