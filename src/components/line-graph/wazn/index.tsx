@@ -25,7 +25,7 @@ export class WaznGraph extends React.Component<Props, State> {
 
   public fetchData = () => {
     this.setState({ fetchingData: true });
-    fetchAsync('https://proxy.mycryptoapi.com/mv')
+    fetchAsync('https://proxy.wazn.io/mv')
       .then((json: any) => {
         if (json) {
           this.setState({ fetchingData: false });

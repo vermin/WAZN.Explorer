@@ -1,12 +1,6 @@
 TO DO BEFORE V1 IS DEPLOYED:
 
----customize all icons, logos and graphics DONE!!!
-
----be creative :P I HOPE!!!
-
 ---check api links
-
----google-site-verification content="getyourwaznone
 
 ---recheck everything!!!
 
