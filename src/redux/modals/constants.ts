@@ -1,5 +1,0 @@
-export enum TypeKeys {
-  OPEN_MODAL = 'OPEN_MODAL',
-  CLOSE_MODAL = 'CLOSE_MODAL',
-  CONFIGURE_NODE = 'CONFIGURE_NODE'
-}
