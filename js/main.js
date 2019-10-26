@@ -1,4 +1,3 @@
-var recentBlocks, topBlockHeight, blockchainChart, blockchainChartData, blockchainChartOptions
 
 $(window).resize(function () {
   if (typeof blockchainChart !== 'undefined') {
@@ -192,7 +191,7 @@ function updateTransactionPool(table) {
         ])
       }
       table.draw(false)
-      
+
       checkForSearchTerm()
     }
   })
