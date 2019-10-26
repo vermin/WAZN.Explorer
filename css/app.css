@@ -18,11 +18,11 @@ footer {
 
 .column-header {
   display: block;
-  background-color: #00853d;
+  background-color: #006938;
 }
 
 .has-trtl-green {
-  color: #00853d !important;
+  color: #006938 !important;
 }
 
 .has-trtl-red {
@@ -35,7 +35,7 @@ footer {
 }
 
 .is-trtl-green {
-  background-color: #00853d !important;
+  background-color: #006938 !important;
   color: #fff !important;
 }
 
@@ -137,14 +137,14 @@ footer {
 }
 
 a {
-  color: #00853d;
+  color: #006938;
 }
 
 .navbar-link.is-active,
 .navbar-link:hover,
 a.navbar-item.is-active,
 a.navbar-item:hover {
-  color: #00853d !important;
+  color: #006938 !important;
 }
 
 .trtl-amount,

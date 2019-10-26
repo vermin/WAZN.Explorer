@@ -41,7 +41,7 @@ const blockchainChartOptions = {
       targetAxisIndex: 1
     }
   },
-  colors: ['#f6b26b', '#40c18e', '#8e7cc3', '#00853d', '#212721', '#fac5c3', '#6d9eeb', '#45818e', '#de5f5f']
+  colors: ['#f6b26b', '#40c18e', '#8e7cc3', '#006938', '#212721', '#fac5c3', '#6d9eeb', '#45818e', '#de5f5f']
 }
 
 $(document).ready(function () {
@@ -121,7 +121,7 @@ function updateCharts() {
 
       const txnChartData = google.visualization.arrayToDataTable(txnData)
       const txnChartOptions = blockchainChartOptions
-      txnChartOptions.colors = ['#00853d']
+      txnChartOptions.colors = ['#006938']
       txnChart.draw(txnChartData, txnChartOptions)
 
       const nonceChartData = google.visualization.arrayToDataTable(nonceData)
