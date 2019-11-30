@@ -1,4 +1,7 @@
-# blockexploder
+WAZN Exploder | Blockchain Explorer
+======================
+
+[![License](https://img.shields.io/badge/license-EUPL--1.2-red)](https://opensource.org/licenses/EUPL-1.2)
 
 ![explorer screenshot](docs/img/exploder-screenshot.png)
 
@@ -49,3 +52,10 @@ location / {
 ```
 
 See the [vue-router history mode docs](https://router.vuejs.org/guide/essentials/history-mode.html#example-server-configurations).
+
+## License
+```
+Licensed under the EUPL-1.2
+Copyright (c) 2019 WAZN Project  
+Copyright (c) 2019 jerme404
+```
