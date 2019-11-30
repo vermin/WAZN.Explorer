@@ -1,8 +1,6 @@
 WAZN Exploder | Blockchain Explorer
 ======================
 
-![explorer screenshot](docs/img/exploder-screenshot.png)
-
 [![License](https://img.shields.io/badge/license-EUPL--1.2-red)](https://opensource.org/licenses/EUPL-1.2)
 
 ## Project setup
@@ -59,3 +57,5 @@ Licensed under the EUPL-1.2
 Copyright (c) 2019 WAZN Project  
 Copyright (c) 2019 jerme404
 ```
+
+![explorer screenshot](docs/img/exploder-screenshot.png)
