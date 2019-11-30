@@ -51,11 +51,12 @@ location / {
 
 See the [vue-router history mode docs](https://router.vuejs.org/guide/essentials/history-mode.html#example-server-configurations).
 
+![explorer screenshot](docs/img/exploder-screenshot.png)
+
+
 ## License
 ```
 Licensed under the EUPL-1.2
 Copyright (c) 2019 WAZN Project  
 Copyright (c) 2019 jerme404
 ```
-
-![explorer screenshot](docs/img/exploder-screenshot.png)
