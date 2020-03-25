@@ -1,7 +1,7 @@
 {
-  "name": "blockexploder",
-  "version": "0.1.0",
-  "author": "JerMe404 (https://github.com/jerme404)",
+  "name": "wazn-explorer",
+  "version": "0.9.0",
+  "author": "vermin (https://github.com/vermin)",
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",

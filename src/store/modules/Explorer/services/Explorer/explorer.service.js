@@ -127,7 +127,7 @@ export default class ExplorerService {
 
     /**
     * @name apiRequest
-    * @description Calls nerva's php API at the specified endpoint.
+    * @description Calls WAZN's php API at the specified endpoint.
     * @param {object} queryParams
     */
     apiRequest (queryParams) {
