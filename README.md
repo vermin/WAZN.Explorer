@@ -5,17 +5,17 @@ WAZN Exploder | Blockchain Explorer
 
 ## Project setup
 
-#### Install vue-cli dev tools
+#### Install @vue/cli dev tools
 
 ```bash
-npm install vue-cli -g
+npm install -g @vue/cli
 ```
 
 #### Clone the project and install dependencies
 
 ```bash
-git clone https://github.com/jerme404/blockexploder
-cd blockexploder
+git clone https://github.com/vermin/wazn-explorer.git
+cd wazn-explorer
 npm install
 ```
 
@@ -51,12 +51,12 @@ location / {
 
 See the [vue-router history mode docs](https://router.vuejs.org/guide/essentials/history-mode.html#example-server-configurations).
 
-![explorer screenshot](docs/img/exploder-screenshot.png)
+![explorer screenshot](docs/img/explorer-screenshot.png)
 
 
 ## License
 ```
 Licensed under the EUPL-1.2
-Copyright (c) 2019 WAZN Project  
+Copyright (c) 2020 WAZN Project  
 Copyright (c) 2019 jerme404
 ```

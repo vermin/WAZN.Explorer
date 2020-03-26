@@ -28,26 +28,6 @@
                         <span class="caption font-weight-medium">
                             {{ `&copy; ${config.copyright}` }}
                         </span>
-                        <span
-                            class="caption font-weight-medium"
-                            v-if="config.coinSymbol != 'XNV' && config.coinSymbol != 'XAM'">
-                            &copy; 2019 JerMe404
-                        </span>
-                        <v-layout
-                            row
-                            align-center
-                            v-if="config.coinSymbol != 'XNV' && config.coinSymbol != 'XAM'">
-                            <span class="caption font-weight-medium">
-                                Based on JerMe404's
-                                <a
-                                    href="https://github.com/jerme404/blockexploder"
-                                    rel="nofollow"
-                                    target="_blank">
-                                    <span class="pl-1 repo-link caption font-weight-medium info--text">
-                                        blockexploder
-                                    </span>
-                                </a>
-                            </span>
                         </v-layout>
                     </v-layout>
                 </v-flex>

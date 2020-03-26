@@ -1,4 +1,5 @@
-# Forking blockexploder
+Forking WAZN Explorer
+======================
 
 ### Styling
 
@@ -14,6 +15,6 @@ Update `/src/config/config.js`.
 
 ### Daemon API
 
-I'm pointing at a Google cloud function, which just adds CORS and forwards requests to the Nerva PHP API.
+I'm pointing at a local daemon on one of seed nodes but feel free to use any Cloud function, which adds CORS and forwards requests to PHP API of your project.
 
-All of the response objects are normal Monero-style `json_rpc` format.
+All calls and response results should be in standard WAZN or Monero-style `json_rpc` format.
