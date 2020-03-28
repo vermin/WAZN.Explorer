@@ -58,30 +58,9 @@
                             {{ netStats.txCount || '-' }}
                         </span>
                     </v-layout>
-                    <v-layout row class="pt-2 pb-1">
-                        <span class="body-2 accent--text">
-                            Supply
-                        </span>
-                        <v-spacer></v-spacer>
-                    </v-layout>
                     <v-layout row class="pb-1">
-                        <span class="subheading font-weight-medium">
-                            Circulating
+                        <span class="subheading font-weight-medium">Reward
                         </span>
-                        <v-spacer></v-spacer>
-                        <span class="subheading font-weight-bold">
-                            {{ supply.circulating ? `${supply.circulating.toFixed(4)} ${config.coinSymbol}` : '-' }}
-                        </span>
-                    </v-layout>
-                    <v-layout row class="pb-1">
-                        <span class="subheading font-weight-medium">Emission</span>
-                        <v-spacer></v-spacer>
-                        <span class="subheading font-weight-bold">
-                            {{ supply.emissionPercent ? `${supply.emissionPercent.toFixed(2)} %` : '-' }}
-                        </span>
-                    </v-layout>
-                    <v-layout row class="pb-1">
-                        <span class="subheading font-weight-medium">Reward</span>
                         <v-spacer></v-spacer>
                         <span class="subheading font-weight-bold">
                             {{ supply.reward ? `${supply.reward.toFixed(4)} ${config.coinSymbol}` : '-' }}

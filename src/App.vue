@@ -139,7 +139,7 @@ body {
 .repo-link {
     text-decoration: none !important;
 }
-.nerva-gradient {
+.wazn-gradient {
     background-image: linear-gradient( 135deg, rgba(85, 168, 191, 1) 0%, rgba(99, 88, 145, 1) 100%);
 }
 </style>

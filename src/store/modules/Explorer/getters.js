@@ -7,8 +7,6 @@ const getters = {
 
         let supply = {
             total: Config.coinSupplyTotal,
-            circulating: 0,
-            emissionPercent: 0,
             reward: 0
         };
 
@@ -22,12 +20,7 @@ const getters = {
             let reward = state.recentBlocks[state.recentBlocks.length - 1].reward;
             supply.reward = Utils.decimalUnits(reward);
         }
-
-        if (state.generatedCoins) {
-
-            supply.circulating = Utils.decimalUnits(state.generatedCoins);
-            supply.emissionPercent = (state.generatedCoins / Config.coinSupplyTotal) * 100;
-        }
+        
         return supply;
     },
     netStats: (state) => {
