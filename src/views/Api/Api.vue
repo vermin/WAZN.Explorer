@@ -2,7 +2,7 @@
     <v-layout row wrap>
 
         <v-layout row class="primary">
-            <span>exploder detail</span>
+            <span>explorer detail</span>
         </v-layout>
 
     </v-layout>

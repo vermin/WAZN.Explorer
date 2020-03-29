@@ -1,5 +1,4 @@
-WAZN Exploder | Blockchain Explorer
-======================
+WAZN Explorer | Blockchain Browser
 
 [![License](https://img.shields.io/badge/license-EUPL--1.2-red)](https://opensource.org/licenses/EUPL-1.2)
 

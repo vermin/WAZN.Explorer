@@ -28,7 +28,6 @@
                         <span class="caption font-weight-medium">
                             {{ `&copy; ${config.copyright}` }}
                         </span>
-                        </v-layout>
                     </v-layout>
                 </v-flex>
                 <v-flex xs12 md4 order-xs1 order-md2>
@@ -100,14 +99,14 @@ export default {
 
 <style>
 body {
-    background-color: #2C3033;
+    background-color: #081217;
 }
 #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2C3033;
+    color: #081217;
     font-size: 16px;
     padding: 0px;
     margin: 0px;
@@ -140,6 +139,6 @@ body {
     text-decoration: none !important;
 }
 .wazn-gradient {
-    background-image: linear-gradient( 135deg, rgba(85, 168, 191, 1) 0%, rgba(99, 88, 145, 1) 100%);
+    background-image: linear-gradient( 135deg, rgba(51, 153, 51, 1) 0%, rgba(0, 102, 51, 1) 100%);
 }
 </style>

@@ -1,25 +1,25 @@
 export default {
     // Standard vuetify theme overrides.
     primary: {
-        base: '#2C3033',
-        darken1: '#222429',
-        darken2: '#202528',
-        lighten1: '#34383b',
-        lighten2: '#53585B'
+        base: '#20292E',
+        darken1: '#081217',
+        darken2: '#000000',
+        lighten1: '#394145',
+        lighten2: '#6A7073'
     },
     secondary: {
         base: '#D4D7D9',
-        darken1: '#AFB1B3',
-        darken2: '#707273',
-        lighten1: '#EDF0F2',
-        lighten2: '#FAFDFF'
+        darken1: '#A9ACAD',
+        darken2: '#7F8182',
+        lighten1: '#DCDFE0',
+        lighten2: '#F6F7F7'
     },
     accent: {
-        base: '#7D83FF',
-        darken1: '#646AE6',
-        darken2: '#4A50CC',
-        lighten1: '#979DFF',
-        lighten2: '#B0B6FF'
+        base: '#339933',
+        darken1: '#287A28',
+        darken2: '#1E5B1E',
+        lighten1: '#5BAD5B',
+        lighten2: '#99CC99'
     },
     error: {
         base: '#F2555A',
@@ -27,12 +27,12 @@ export default {
         darken2: '#A63A3E',
         lighten1: '#FF595F'
     },
-    info: '#35A7FF',
+    info: '#006633',
     success: {
-        base: '#13F2B3',
-        darken1: '#11D9A0',
-        darken2: '#0EB384',
-        lighten1: '#14FFBD'
+        base: '#FF9900',
+        darken1: '#CC7A00',
+        darken2: '#995B00',
+        lighten1: '#FFB84D'
     },
     warning: '#FFC107'
 };

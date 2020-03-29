@@ -7,7 +7,7 @@
                     column
                     class="pa-2 mx-1 secondary--text text--lighten-1 no-select"
                     v-bind:class="{ 'pt-2 px-3': !isMobile }">
-                    <v-layout row>
+                    <v-layout row class="pt-5">
                         <span class="title font-weight-regular">
                             Network Height
                         </span>
@@ -16,8 +16,8 @@
                             {{ networkInfo.height || '-' }}
                         </span>
                     </v-layout>
-                    <v-layout row class="pt-3 pb-1">
-                        <span class="body-2 accent--text">
+                    <v-layout row class="pt-5 pb-3">
+                        <span class="title accent--text">
                             Network Stats
                         </span>
                         <v-spacer></v-spacer>
@@ -287,7 +287,7 @@ export default {
                     animations: { enabled: false },
                     toolbar: { show: false },
                 },
-                colors:['#5EFC8D', '#7D83FF'],
+                colors:['#339933', '#FF9900'],
                 grid: {
                     borderColor: '#3B4047',
                     position: 'back',

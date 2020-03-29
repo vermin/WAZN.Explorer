@@ -30,7 +30,7 @@
             row
             wrap
             shrink
-            class="py-3 px-1 primary secondary--text text--lighten-1 no-select"
+            class="py-3 px-1 pt-5 primary secondary--text text--lighten-1 no-select"
             v-bind:class="{ 'px-3': !isMobile }"
             v-else-if="block || tx">
             <v-layout
@@ -146,7 +146,7 @@
                 <v-layout column v-if="block">
                     <v-layout
                         row
-                        class="px-3 pb-3"
+                        class="px-3 pb-3 pt-5"
                         align-center>
                         <v-icon
                             color="accent"

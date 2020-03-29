@@ -75,7 +75,7 @@ export default {
 
 <style scoped>
 .nav-logo {
-    height: 42px;
+    height: 50px;
     width: auto;
 }
 .nav-logo-mobile {
