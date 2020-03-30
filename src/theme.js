@@ -28,11 +28,12 @@ export default {
         lighten1: '#FF595F'
     },
     info: '#006633',
+    wazn: '#1a2637',
     success: {
         base: '#FF9900',
         darken1: '#CC7A00',
         darken2: '#995B00',
         lighten1: '#FFB84D'
     },
-    warning: '#FFC107'
+    warning: '#FFCC00'
 };
