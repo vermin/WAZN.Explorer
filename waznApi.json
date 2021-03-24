@@ -6,7 +6,7 @@
   "block_weight_median": 101,
   "bootstrap_daemon_address": "",
   "cumulative_difficulty": 2768546664578,
-cumulative_difficulty_top64
+	"cumulative_difficulty_top64":0,
   "database_size": 0,
   "difficulty": 37291563,
   "free_space": 59268677632,
@@ -30,7 +30,7 @@ cumulative_difficulty_top64
   "tx_pool_size": 0,
   "untrusted": false,
   "update_available": false,
-version
+	"version":"0.9.9",
   "was_bootstrap_ever_used": false,
   "white_peerlist_size": 50
 }

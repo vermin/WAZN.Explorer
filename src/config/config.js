@@ -1,18 +1,18 @@
 export default {
-    coinName: 'WAZN',
+    coinName: 'Wazn',
     coinSymbol: 'WAZN',
-    coinUnitPlaces: 6,
+    coinUnitPlaces: 9,
     coinUriPrefix: 'wazn:',
-    coinSupplyTotal: 100000000000000,
-    addressPrefix: 0x137130,
-    integratedAddressPrefix: 0x3bab30,
-    subAddressPrefix: 0x2fab30,
+    coinSupplyTotal: 100000000000000000,
+    addressPrefix: 0x77130,
+    integratedAddressPrefix: 0x2fab30,
+    subAddressPrefix: 0x3bab30,
     blockTarget: 120,
     updateInterval: 15000, // Auto refresh interval in milliseconds
     explorerApi: 'https://us-central1-nerva-248022.cloudfunctions.net/nervaApi',
     websiteUrl: 'https://wazn.io',
-    footerAppTitle: 'WAZN Block Explorer',
-    copyright: 'Copyright © 2020 WAZN Project',
+    footerAppTitle: 'Wazn Block Explorer',
+    copyright: 'Copyright © 2020-2021 WAZN Project',
     footerLinks: [
         {
             name: 'Github',

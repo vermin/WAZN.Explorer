@@ -27,7 +27,7 @@
                         </span>
                         <span class="caption font-weight-medium">
                             {{ `&copy; ${config.copyright}` }}
-                        </span>
+                        </span>                            
                     </v-layout>
                 </v-flex>
                 <v-flex xs12 md4 order-xs1 order-md2>
